@@ -1,7 +1,6 @@
 'use client';
 
 import Image from "next/image";
-import { useState } from "react";
 
 export default function Home() {
   // Mock property data
@@ -125,7 +124,7 @@ export default function Home() {
                     </svg>
                     <span className="text-sm">AI powered Insights</span>
                   </div>
-                  <h3 className="font-bold text-sm md:text-base text-black">DLF's $4 Billion Luxury Project Near Delhi Records Unprecedented Sales</h3>
+                  <h3 className="font-bold text-sm md:text-base text-black">DLF&apos;s $4 Billion Luxury Project Near Delhi Records Unprecedented Sales</h3>
                 </div>
               </div>
             </div>
@@ -151,7 +150,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="text-gray-500 text-xs md:text-sm mb-1">First time buyer</div>
-                  <p className="italic text-black text-xs md:text-sm">"Ayra made home searching effortless — it felt like she just got me."</p>
+                  <p className="italic text-black text-xs md:text-sm">&quot;Ayra made home searching effortless — it felt like she just got me.&quot;</p>
                 </div>
               </div>
             </div>
@@ -182,7 +181,7 @@ export default function Home() {
         
         {/* Main Headline */}
         <div className="text-center mb-8 md:mb-10">
-          <h1 className="text-2xl md:text-3xl font-bold text-black">Explore What's Trending Now</h1>
+          <h1 className="text-2xl md:text-3xl font-bold text-black">Explore What&apos;s Trending Now</h1>
         </div>
 
         {/* Bento Grid - Main Properties */}
@@ -333,7 +332,7 @@ export default function Home() {
           </button>
           <input 
             type="text" 
-            placeholder='Need help? Try "Find a 3BHK under ₹1Cr in Delhi"'
+            placeholder='Need help? Try &quot;Find a 3BHK under ₹1Cr in Delhi&quot;'
             className="flex-1 bg-transparent outline-none text-black placeholder-gray-400 text-sm"
           />
           <button className="ml-2">
